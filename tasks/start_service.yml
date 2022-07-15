@@ -1,0 +1,6 @@
+---
+
+- name: Stop service vault
+  win_service:
+    name: Vault Agent
+    state: start

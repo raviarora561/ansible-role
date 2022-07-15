@@ -1,0 +1,7 @@
+---
+# tasks file for vault-agent
+#
+- import_tasks: copy_files.yml
+- import_tasks: create_password.yml
+- import_tasks: create_service.yml
+- import_tasks: start_service.yml

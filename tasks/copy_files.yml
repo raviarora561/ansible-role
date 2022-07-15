@@ -1,0 +1,9 @@
+--- 
+
+#task to copy files
+
+- name: Copy a folder recursively where the source is on the remote host
+  ansible.windows.win_copy:
+    src: \\server-ip\Temp
+    dest: C:\vault
+    remote_src: yes

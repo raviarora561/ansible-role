@@ -1,0 +1,8 @@
+---
+
+- name: Create a new service with extra details
+  ansible.windows.win_service:
+    name: Vault Agent
+    path: C:\vault\vault.exe
+    display_name: Vault Agent
+    description: Vault agent service
